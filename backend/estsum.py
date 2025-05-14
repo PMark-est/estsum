@@ -9,7 +9,7 @@ from estnltk import Text
 from Score import Score
 from groq import Groq
 
-API_KEY = "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"
+API_KEY = "api võti"
 
 class EstSum:
     """
