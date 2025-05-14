@@ -1,0 +1,7 @@
+beautifulsoup4==4.13.4
+estnltk==1.7.4
+groq==0.24.0
+Django==5.2
+djangorestframework==3.14.0
+django-cors-headers==3.10.0
+gunicorn==23.0.0
