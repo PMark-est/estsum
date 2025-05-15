@@ -30,9 +30,9 @@ class EstSum:
             '[?!]+$': -5, '[„“«»"]': -4, '[!?]+\"': -13, '^\xAB[^\xBB]*,\xBB': -4, ': \xAB[^\xBB]*\xBB$': -4, '^\xAB[^\xBB]*\xBB$': -4}
         self.scores = defaultdict(Score)
         self.words = defaultdict(int)
-        self.client = Groq(
-            api_key=API_KEY,
-        )
+        #self.client = Groq(
+        #    api_key=API_KEY,
+        #)
         self.summary = []
         #self.position_score_weight = 0.4
         #self.format_score_weiht = 0.4
